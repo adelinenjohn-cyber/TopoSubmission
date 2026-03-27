@@ -13,8 +13,6 @@ The application allows users to:
 
 The project is built using Flask for the backend and Leaflet with OpenStreetMap for the frontend map visualization.
 
----
-
 # Approach and Architecture
 
 I used Flask for the backend to serve both the webpage and the hawker centre dataset. The dataset is stored locally as a .geojson file.
@@ -53,7 +51,7 @@ Frontend
 
 1. Clone the repository
 '''bash
-git clone <your-github-repo-url>
+git clone https://github.com/adelinenjohn-cyber/TopoSubmission
 cd hawker-map
 
 2. Install Flask
