@@ -78,4 +78,18 @@ Selecting a status and/or from the dropdown filters results correctly
 The sidebar updates according to the applied filters
 Typing in the search bar yields results complying with filters
 
+# Assumptions / Challenges
+
+Assumptions
+- The 'hawkers.geojson' file follows a valid GeoJSON structure
+- All fields have NON-NULL values.
+- Coordinates are provided in [longitude, latitude] format as per GeoJSON specification.
+
+Design Decisions
+- Filtering (search, status, region) is implemented on the frontend using JavaScript for faster interaction and simplicity.
+- The status dropdown is dynamically generated based on unique values found in the dataset.
+
+Challenges / Limitations
+- The dataset does not include official region classifications, so region filtering is approximate and may not reflect actual Singapore planning areas.
+
 
